@@ -50,7 +50,10 @@ vagrant ssh
 
 * A potential buyer can browse all the listings for a given `starship_class`
 
-    ```http://localhost:8008/shiptrader/listings/?search=your_starship_class```
+    ```shell
+    http://localhost:8008/shiptrader/listings/?search=your_starship_class
+    ```
+    
         
 * A potential buyer can sort listings by price or time of listing
     ```shell
